@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-* main This is the exercise that I must perform
-* puts will print the message I want
+* main - This is the exercise that I must perform
 * return: 0 this should always be in zero
 */
 int main(void)
