@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the word "with proper grammar, but the outcome is a piece of art,"
+ * main - print word "with proper grammar, but the outcome is a piece of art,"
  * Return: 0 this returns zero
  */
 int main(void)
