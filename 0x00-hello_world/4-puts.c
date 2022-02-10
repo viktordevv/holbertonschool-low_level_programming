@@ -2,7 +2,7 @@
 /**
 * main - This is the exercise that I must perform
 * puts - will print the message I want
-* return - this should always be in 0
+* return: 0 this should always be in
 */
 int main(void)
 {
