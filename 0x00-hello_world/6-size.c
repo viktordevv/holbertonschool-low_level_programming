@@ -5,15 +5,10 @@
 */
 int main(void)
 {
-char typeA;
-int typeB;
-long int tC;
-long long int tD;
-float z;
-printf("Side of a char: %zu bytes\n", sizeof(typeA));
-printf("Size of an int: %zu bytes\n", sizeof(typeB));
-printf("Size of a long int: %zu bytes\n", sizeof(tC));
-printf("Size of a long long int: %zu bytes\n", sizeof(tD));
-printf("Size of a float: %zu bytes\n", sizeof(z));
+printf("Side of a char: %zu byte(s)\n", sizeof(char));
+printf("Size of an int: %zu byte(s)\n", sizeof(int));
+ printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+printf("Size of a float: %zu byte(s)\n", sizeof(float));
 return (0);
 }
