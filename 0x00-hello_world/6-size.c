@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - print variables values
-* Return: 0 is values 
+* Return: 0 is values
 */
 int main(void)
 {
