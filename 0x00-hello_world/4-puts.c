@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - This is the exercise that I must perform
-* puts - will print the message I want
-* return: 0 this should always be in
+* main This is the exercise that I must perform
+* puts will print the message I want
+* return: 0 this should always be in zero
 */
 int main(void)
 {
