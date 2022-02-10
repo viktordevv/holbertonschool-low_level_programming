@@ -1,14 +1,19 @@
 #include <stdio.h>
 /**
- * main - print values
- * Return: 0 is values
+ * main - print variables values
+ * Return: 0 is values 
  */
 int main(void)
 {
-printf("Side of a char: %i bytes\n", sizeof(char));
-printf("Size of an int: %i bytess\n", sizeof(int));
-printf("Size of a long int: %i bytes\n", sizeof(long int));
-printf("Size of a long long int: %i bytes\n", sizeof(long long int));
-printf("Size of a float: %i bytes\n", sizeof(float));
+  char a;
+  int b;
+  long int c;
+  long long int d;
+  float z;
+printf("Side of a char: %i bytes\n", sizeof(a));
+printf("Size of an int: %i bytess\n", sizeof(b));
+printf("Size of a long int: %i bytes\n", sizeof(c));
+printf("Size of a long long int: %i bytes\n", sizeof(d));
+printf("Size of a float: %i bytes\n", sizeof(z));
 return (0);
 }
