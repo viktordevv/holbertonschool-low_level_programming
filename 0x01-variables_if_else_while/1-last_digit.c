@@ -18,6 +18,6 @@ printf("greater than 5\n");
 else
 printf("less than 6 and not 0\n");
 return (0);
- printf("the last digit of %i is %i and is greater than 5\n", n, (n % 10)); 
+printf("the last digit of %i is %i and is greater than 5\n", n, (n % 10)); 
 return (0);
 }
