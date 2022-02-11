@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * * main - print variables values
- * * Return: 0 is values
- * */
+ * main - print variables values
+ * Return: 0 is values
+ */
 int main(void)
 {
 	printf("Side of a char: %zu byte(s)\n", sizeof(char));
