@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Desde la a hasta la z 
+ * main - Desde la a hasta la z
  * vamos con toda
  * Return: 0 no retorna nada yayayajuuuu
  */
