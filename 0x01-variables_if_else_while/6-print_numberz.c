@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Imprimiendo del 1 al 9
- * Return: 0 Devolviendo en 0 
+ * Return: 0 Devolviendo en 0
  */
 int main(void)
 {
