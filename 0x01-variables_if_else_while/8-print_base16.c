@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - esto imprime base16
  * del 0 al 9 y de la a al f
  * Return: 0 no retorna nadita
  */
-int main()
+int main(void)
 {
 	char m;
 	char n;
