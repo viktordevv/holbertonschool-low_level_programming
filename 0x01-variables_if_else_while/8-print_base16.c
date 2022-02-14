@@ -5,7 +5,7 @@
  * del 0 al 9 y de la a al f
  * Return: 0 no retorna nadita
  */
-int main(void)
+int main()
 {
 	char m;
 	char n;
