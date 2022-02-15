@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - print 1110 
+ * _isalpha - print 1110
+ * @c:upper case and lower case
  * Return: 0  this is a return
  */
 
