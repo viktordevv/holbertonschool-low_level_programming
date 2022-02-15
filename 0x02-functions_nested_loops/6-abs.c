@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - this is like main
- * @n: absolutly is here
+ * @n: absolutly is heree
  * Return: like zero
  */
 int _abs(int n)
