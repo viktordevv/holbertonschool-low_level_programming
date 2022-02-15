@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- *
+ * print_last_digit - print all this
+ * @n: need all digits
+ * Return: q is hard
  */
 int print_last_digit(int n)
 {
