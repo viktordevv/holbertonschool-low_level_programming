@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - print greater and negative
+ * print_sign - print greater and negative
+ * @n: this is the sign
  * Return: 0 in zero
- i*/
+ */
 
 int print_sign(int n)
 
