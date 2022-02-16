@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* printf - this is print for f
 * Return: 0
 */
 
