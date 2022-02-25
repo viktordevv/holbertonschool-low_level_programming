@@ -13,13 +13,13 @@ char *_strncat(char *dest, char *src, int n)
 
 	p = 0;
 	while (dest[p] != '\0')
-{
+
 	p++;
-}
+
 	j = 0;
 	while (j < n && src[j] != '\0')
 {
-	dest[p] = src[p];
+	dest[p] = src[j];
 	p++;
 	j++;
 }
