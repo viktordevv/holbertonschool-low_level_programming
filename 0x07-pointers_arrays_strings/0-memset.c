@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memset - llenar lo que falta con un byte
- * @s: pointed destination
- * @b: constant byte
- * @n: bytes
- * Return: Always 0 (Success)
+ * _memset - this is main funtion
+ * @s: this is pointr
+ * @b: this is funt b
+ * @n: this is n funt
+ * Return: in s ret
  */
 char *_memset(char *s, char b, unsigned int n)
 {
