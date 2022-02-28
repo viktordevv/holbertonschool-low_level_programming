@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * memcpy - this is main funt
+ * _memcpy - this is main funt
  * @dest: this is char
  * @src: this is a src
  * @n: this is n funt
