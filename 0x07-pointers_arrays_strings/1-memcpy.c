@@ -4,6 +4,7 @@
  * @dest: this is char
  * @src: this is a src
  * @n: this is n funt
+ * Return: dest is a return
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
