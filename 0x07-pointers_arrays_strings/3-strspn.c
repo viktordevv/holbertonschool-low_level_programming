@@ -5,7 +5,7 @@
  * @accept: this is accept
  * Return: count
  */
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	int count = 0;
 	int k = 0;
