@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * _memcpy - this is main funt
+ * _memcpy - this is a main funtion
  * @dest: this is char
  * @src: this is a src
  * @n: this is n funt
- * return: dest is a return
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
