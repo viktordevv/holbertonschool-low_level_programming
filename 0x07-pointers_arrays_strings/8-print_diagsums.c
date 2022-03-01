@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print-diagsums - this is main funtion
+ * print_diagsums - this is main funtion
  * @a: this is a funtion
  * @size: this is a size funtion
  */
