@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * @brief
- * 
+ * print_chessboard - this is main funtion
+ * @a: this is a funtion
  */
 void print_chessboard(char (*a)[8])
 {
