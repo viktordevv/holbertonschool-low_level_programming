@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - this is main funtion
  * @s: this is s funtion
- * Return: len * 
+ * Return: len *
  */
 int _strlen_recursion(char *s)
 {
