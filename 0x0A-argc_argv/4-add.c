@@ -1,28 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - Entry Point
- * @argc: arguments
- * @argv: array pointing to arguments
+ * main - programa que sume números positivos
+ * @argc: entero
+ * @argv: array
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
-
-if (argc < 1)
-return (0);
-
-for (i = 1; i < argc; i++)
+int num, digit, sum = 0;
+for (num = 1; num < argc; num++)
 {
-if (!atoi(argv[i]))
+for (digit = 0; argv[num][digit]; digit++)
 {
-printf("%s\n", "Error");
+if (argv[num][digit] < '0' || argv[num][digit] > '9')
+{
+printf("Error\n");
 return (1);
 }
-sum += atoi(argv[i]);
-
-printf("%d\n", sum);
 }
+sum += atoi(argv[num]);
+}
+printf("%d\n", sum);
 return (0);
 }
