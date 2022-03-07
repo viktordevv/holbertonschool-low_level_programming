@@ -6,7 +6,7 @@
  * @size: this is size funtion
  * @c: this is c funtion
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 char *array;
 unsigned int p;
