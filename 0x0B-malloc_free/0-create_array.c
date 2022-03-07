@@ -16,7 +16,7 @@ str = malloc(sizeof(char) * size);
 if (size == 0 || array == NULL)
 return (NULL);
 
-for (size_t p = 0; p < count; p++)
+for (size p = 0; p < count; p++)
 array[p] = c;
 return (array);
 }
