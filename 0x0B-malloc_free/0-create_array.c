@@ -19,4 +19,5 @@ return (NULL);
 for (p = 0; p < size; p++);
 array[p] = c;
 return (array);
+free(array);
 }
