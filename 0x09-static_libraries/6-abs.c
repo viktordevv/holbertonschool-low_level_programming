@@ -1,18 +1,23 @@
 #include "main.h"
+#include <unistd.h>
 /**
- * _abs - this is like main
- * @n: absolutly is heree
- * Return: like zero
+ * _abs - a function that computes
+ * the absolute value of an int
+ *
+ * @n: an integer passed to
+ * our function
+ *
+ * Return: we return the absolute
+ * value of the int.
  */
 int _abs(int n)
 {
+	int value;
+
 	if (n > 0)
-	{
-		return (n);
-	}
-	else if (n < 0)
-	{
-		return (-n);
-	}
-	return (0);
+		value = n;
+	else
+		value = (n * -1);
+
+	return (value);
 }
