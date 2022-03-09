@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _atoi - tbd
  *
@@ -6,6 +7,7 @@
  *
  * Return: 0 for now
  */
+
 int _atoi(char *s)
 {
 	s = s + 1;
