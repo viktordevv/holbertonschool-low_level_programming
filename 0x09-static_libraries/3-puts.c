@@ -4,16 +4,18 @@
 
 /**
  * _puts - this function print with puts but don't move the cursor to next line
- *@str: the parameter
+ *@s: the parameter
  *
  *
  * Return: Always 0.
  */
-void _puts(char *str)
+void _puts(char *s)
 {
-	while (*str != '\0')
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-	_putchar(*str++);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
