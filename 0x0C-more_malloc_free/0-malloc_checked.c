@@ -4,7 +4,7 @@
 /**
  * malloc_checked - this is main funtion
  * @b: this is b funtion
- * @return a
+ * Return: a
  */
 void *malloc_checked(unsigned int b)
 {
