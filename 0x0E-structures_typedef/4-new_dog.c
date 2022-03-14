@@ -33,6 +33,7 @@ d1->owner = malloc(ownerLen * sizeof(d1->owner));
 if (d1->owner == NULL)
 {
 free(d1->name);
+
 free(d1);
 return (NULL);
 }
