@@ -18,7 +18,6 @@ exit(98);
 
 a = atoi(argv[1]);
 b = atoi(argv[3]);
-
 if (b == 0 && (*argv[2] == '/' || *argv[2] == '%'))
 {
 printf("Error\n");
