@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 int a, b;
 int (*result)(int, int);
 
-printf("%i\n", argc);
 if (argc != 4)
 {
 printf("Error\n");
