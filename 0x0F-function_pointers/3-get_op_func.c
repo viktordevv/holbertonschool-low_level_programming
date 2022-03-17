@@ -15,7 +15,6 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-
 int i = 0;
   
 while (i < 5)
