@@ -13,7 +13,7 @@ int (*result)(int, int);
 printf("%i\n", argc);
 if (argc != 4)
 {
-printf("Error3\n");
+printf("Error\n");
 exit(98);
 }
 
@@ -22,13 +22,13 @@ b = atoi(argv[3]);
 
 if (b == 0 && (*argv[2] == '/' || *argv[2] == '%'))
 {
-printf("Error2\n");
+printf("Error\n");
 exit(100);
 }
 result = get_op_func(argv[2]);
 if (result == NULL)
 {
-printf("Error1\n");
+printf("Error\n");
 exit(99);
 }
 printf("%d\n", result(a, b));
