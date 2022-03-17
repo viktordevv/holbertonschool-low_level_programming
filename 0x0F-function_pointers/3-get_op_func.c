@@ -13,9 +13,11 @@ op_t ops[] = {
 {"*", op_mul},
 {"/", op_div},
 {"%", op_mod},
-{NULL, NULL}};
+{NULL, NULL}
+};
 
 int i = 0;
+  
 while (i < 5)
 {
 if (strcmp(ops[i].op, s) == 0)
