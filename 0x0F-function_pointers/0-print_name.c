@@ -1,9 +1,8 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
- * print_name - this is a main
+ * print_name - funtion print a main
  * @name: this is name
  * @f: this is f
  */
