@@ -12,7 +12,7 @@ printf("Hello, my name is %s\n", name);
 /**
  * print_name_uppercase - print a name in uppercase
  * @name: name of the person
- * Return: Nothing.
+ * Return: 0
  */
 void print_name_uppercase(char *name)
 {
