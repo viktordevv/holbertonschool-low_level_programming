@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 /**
- * sum_them_all
+ * sum_them_all - this is main funtion
  * @n: this is n
  * Return: 0 
  */
