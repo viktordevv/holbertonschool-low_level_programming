@@ -6,22 +6,20 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list args;
 unsigned int o;
+va_list l;
 
-va_start(args, n);
+va_start(l, n);
+
 for (o = 0; o < n; o++)
 {
 if (!separator)
-{
-if (o != (n - 1))
-printf("%i%s", va_arg(args, int), separator);
+printf("%d", va_arg(l, int));
+else if (separator && o == 0)
+printf("%d", va_arg(l, int));
 else
-printf("%i", va_arg(args, int));
+printf("%s%d", separator, va_arg(l, int));
 }
-else
-printf("%i", va_arg(args, int));
-}
-va_end(args);
+va_end(l);
 printf("\n");
 }
