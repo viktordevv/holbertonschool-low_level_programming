@@ -10,7 +10,6 @@ unsigned int o;
 va_list l;
 
 va_start(l, n);
-
 for (o = 0; o < n; o++)
 {
 if (!separator)
