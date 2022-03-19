@@ -14,7 +14,7 @@ for (o = 0; o < n; o++)
 {
 if (!separator)
 {
-if (i != (n - 1))
+if (o != (n - 1))
 printf("%i%s", va_arg(args, int), separator);
 else
 printf("%i", va_arg(args, int));
