@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * @add_node -this is main function
+ * add_node -this is main function
  * @head:this is head funtion
  * @str: this is string
  * Return: 0
