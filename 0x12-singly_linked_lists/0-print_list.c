@@ -1,9 +1,8 @@
 #include "lists.h"
-
 /**
  * print_list - this is main funtion
  * @h: this is list h
- * Return: sum
+ * Return: 0
  */
 size_t print_list(const list_t *h)
 {
