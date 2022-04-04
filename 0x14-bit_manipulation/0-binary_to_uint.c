@@ -2,7 +2,7 @@
 /**
  * binary_to_uint - this is main
  * @b: this is char
- * Return: sum
+ * Return: 0
  */
 unsigned int binary_to_uint(const char *b)
 {
