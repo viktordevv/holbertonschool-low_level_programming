@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * create_file - this is main
+ * append_text_to_file - this is main
  * @filename: this is filename
  * @text_content: this is text
  * Return: 0
