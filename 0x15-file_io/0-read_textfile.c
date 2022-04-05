@@ -5,26 +5,26 @@
  * @letters:
  * Return: ssize_t
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd, readed;
-	char *buffptr = malloc(sizeof(char *) * letters);
-
-	if (buffptr == NULL)
-		return (0);
+	int writebuff, readbuff, fd;
+	char *buffptr;
 
 	if (filename == NULL)
 		return (0);
-
-	fd = open(filename, O_RDONLY, 0600);
+	buffptr = malloc(sizeof(char) * letters);
+	if (buffptr == NULL)
+		return (0);
+	fd = open(filename, O_RDWR);
 	if (fd == -1)
 		return (0);
-
-	readed = read(fd, buffptr, letters);
-	write(STDOUT_FILENO, buffptr, readed);
-
-	free(buffptr);
+	readbuff = read(fd, buffptr, letters);
+	if (readbuff == -1)
+		return (0);
+	writebuff = write(STDOUT_FILENO, buffptr, readbuff);
+	if (writebuff == -1)
+		return (0);
 	close(fd);
-	return (readed);
+	free(buffptr);
+	return (writebuff);
 }
