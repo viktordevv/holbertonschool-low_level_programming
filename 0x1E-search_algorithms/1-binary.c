@@ -35,7 +35,7 @@ int binary_search(int *array, size_t size, int value)
  * print_array - print the array
  * @array: array to be printed
  * @init: index where start to print
- * @end: index where end to print 
+ * @end: index where end to print
  */
 void print_array(int *array, int init, int end)
 {
