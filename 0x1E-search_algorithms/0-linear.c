@@ -4,9 +4,10 @@
  * linear_search - searches for a value in an array
  * @array: pointer to the first element
  * @size: number of elements
- * @value: value to search 
+ * @value: value to search
  * Return: -1
  */
+
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i = 0;
